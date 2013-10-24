@@ -5,3 +5,5 @@ RSpec.configure do |config|
 
   config.order = 'random'
 end
+
+require "cta_bus_api"
