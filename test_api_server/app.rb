@@ -6,3 +6,9 @@ get "/bustime/api/v1/gettime" do
   content_type "text/xml"
   send_file "index.xml"
 end
+
+# http://www.ctabustracker.com/bustime/api/v1/getroutes
+get "/bustime/api/v1/getroutes" do
+  content_type "text/xml"
+  send_file "get_routes.xml"
+end
